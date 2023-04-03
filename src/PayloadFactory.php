@@ -149,7 +149,7 @@ class PayloadFactory
      */
     public function iss()
     {
-        return $this->request->url();
+        return config('jwt.issuer');
     }
 
     /**
